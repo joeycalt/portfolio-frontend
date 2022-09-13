@@ -37,47 +37,93 @@
   }
 }
 
-.nav-link {
-
+body {
+  background-color: rgb(191, 187, 187);
 }
 
-.home-title {
+.nav {
+  background-color: blue;
+}
 
+.nav-link {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: rgba(255, 255, 255, 0.699)
 }
 
 .name {
-
+  font-size: 35px;
 }
 
 .email {
-
+  font-size: 12px;
 }
 
 .bio {
-
-}
-
-.main {
-
+  font-size: 18px;
+  line-height: 35px;
+  word-spacing: 5px;
+  font-weight: 500;
+  padding: 20px;
+  margin: 0 45px 0 45px;
 }
 
 .headshot {
-
+  height: 200px;
+  width: 200px;
+  margin-top: 50px;
 }
 
 .herokubtn {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 10%;
+  margin: 5px;
+  cursor: pointer;
+}
 
+.herokubtn:hover {
+  color: rgba(255, 255, 255, 0.699)
 }
 
 .gitbtn {
-
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 10%;
+  margin: 5px;
+  cursor: pointer;
 }
 
-.project {
-
+.gitbtn:hover {
+  color: rgba(255, 255, 255, 0.699)
 }
 
 .project-img {
-
+  height: 300px;
+  width: 300px;
+  padding: 10px;
 }
 
+.footer {
+  margin-top: 80px;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+li {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.welcome-img {
+  margin-top: 20px;
+}
